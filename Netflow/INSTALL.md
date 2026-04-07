@@ -3,50 +3,30 @@ These instructions install nfsen-ng on a fresh Ubuntu 22.04/24.04 LTS
 
 ```bash
 # Use the sudo user
-
 sudo -i
 
 # Update ubuntu:
-
 apt-get update
-
 apt autoremove
 
- 
-
-Create and navidate to a new folder:
-
+# Create and navidate to a new folder:
 mkdir ~/nfsen && cd ~/nfsen
-
- 
-
 or
-
- 
-
 mkdir /var/nfsen && cd /var/nfsen
 
- 
-
-Download the required files:
-
+# Download the required files:
 wget https://bit.ly/2NpMHqV     >>> NfSend
-
 wget https://github.com/phaag/nfdump/archive/v1.6.17.tar.gz    >>>NfDump
 
-Extract the files:
-
+# Extract the files:
 tar zxfv 2NpMHqV
-
 tar xzfv v1.6.17.tar.gz
 
-Install Dependencies
-
+## Install Dependencies
 apt install make gcc flex rrdtool librrd-dev libpcap-dev php librrds-perl libsocket6-perl apache2 libapache2-mod-php libtool dh-autoreconf pkg-config libbz2-dev byacc doxygen graphviz librrdp-perl libmailtools-perl build-essential autoconf
 
- 
-
-you may use only >>> this is Important
+```bash
+# you may use only >>> this is Important
 
 apt-get install apache2 php libapache2-mod-php librrds-perl librrdp-perl librrd-dev libmailtools-perl build-essential autoconf rrdtool
 
