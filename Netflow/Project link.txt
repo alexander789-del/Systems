@@ -1,1 +1,9 @@
 
+https://www.youtube.com/watch?v=4DkB0jQiTqw&t=3s
+http://nfsen.sourceforge.net/
+
+http://nfdump.sourceforge.net/
+
+https://github.com/phaag/nfdump
+
+https://www.first.org/resources/papers/conference2006/haag-peter-papers.pdf
